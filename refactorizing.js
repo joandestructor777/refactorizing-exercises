@@ -28,8 +28,10 @@ function calculate(input) {
 
 
 // 3. Remove Assignments to Parameters
-
-
+function applyDiscount(price) {
+    let discountedPrice = price * 0.9;
+    return discountedPrice;
+}
 
 
 // 4. Replace Method with Method Object
@@ -53,6 +55,8 @@ class PriceCalculator {
     }
 }
 
+
+// 5. Substitute Algorithm
 function reduceArray(array){
     return array.reduce((acc, actual) =>{
         return acc + actual;
