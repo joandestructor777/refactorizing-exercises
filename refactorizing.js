@@ -29,10 +29,6 @@ function calculate(input) {
 
 // 3. Remove Assignments to Parameters
 
-function applyDiscount(price){
-    const finalPrice = price * 0.9;
-    return finalPrice;
-}
 
 
 
@@ -57,7 +53,11 @@ class PriceCalculator {
     }
 }
 
-
+function reduceArray(array){
+    return array.reduce((acc, actual) =>{
+        return acc + actual;
+    },0);
+}
 
 
 
