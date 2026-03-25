@@ -29,7 +29,10 @@ function calculate(input) {
 
 // 3. Remove Assignments to Parameters
 
-
+function applyDiscount(price){
+    const finalPrice = price * 0.9;
+    return finalPrice;
+}
 
 
 
