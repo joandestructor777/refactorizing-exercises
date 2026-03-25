@@ -74,3 +74,5 @@ console.log(applyDiscount(100));
 const calculator = new PriceCalculator(100, 0.19);
 console.log(calculator.calculate());
 
+
+console.log(reduceArray([1,2,3,4]));
