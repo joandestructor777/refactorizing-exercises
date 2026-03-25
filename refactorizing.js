@@ -60,6 +60,13 @@ function reduceArray(array){
 }
 
 
+// function to make a sum of only positive numbers
+function sumPositiveNumbers(numbers) {
+  return numbers
+    .filter(num => num > 0)
+    .reduce((acc, num) => acc + num, 0);
+}
+
 
 
 
